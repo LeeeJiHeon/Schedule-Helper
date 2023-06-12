@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="autosize_text_sizes">
+        <item>18sp</item>
+    </array>
+    <array name="autosize_text_sizes2">
+        <item>15sp</item>
+    </array>
+    <string-array name="college">
+        <item>공학대학</item>
+        <item>보건과학대학</item>
+        <item>인문사회디자인스포츠대학</item>
+    </string-array>
+
+    <string-array name="major">
+        <item>전공을 선택하세요</item>
+        <item>건축공학전공</item>
+        <item>토목공학전공</item>
+        <item>기계공학전공</item>
+        <item>기계설계공학전공</item>
+        <item>소방방재공학전공</item>
+        <item>재난관리공학전공</item>
+        <item>AI소프트웨어학과</item>
+        <item>신소재공학과</item>
+        <item>에너지화학공학전공</item>
+        <item>에너지자원융합공학전공</item>
+        <item>전기공학전공</item>
+        <item>제어계측공학전공</item>
+        <item>전자공학전공</item>
+        <item>정보통신공학전공</item>
+        <item>지구환경시스템공학과</item>
+        <item>제어계측공학전공</item>
+        <item>간호학과</item>
+        <item>물리치료학과</item>
+        <item>방사선학과</item>
+        <item>생약자원개발학과</item>
+        <item>식품영양학과</item>
+        <item>안경광학과</item>
+        <item>응급구조학과</item>
+        <item>작업치료학과</item>
+        <item>치위생학과</item>
+        <item>공공행정전공</item>
+        <item>관광전공</item>
+        <item>영어전공</item>
+        <item>지역경제전공</item>
+        <item>레저스포트학과</item>
+        <item>멀티디자인학과</item>
+        <item>사회복지학과</item>
+        <item>생활조형디자인학과</item>
+        <item>연극영화학과</item>
+        <item>유아교육과</item>
+        <item>일본어학과</item>
+    </string-array>
+
+    <string-array name="health">
+        <item>간호학과</item>
+        <item>물리치료학과</item>
+        <item>방사선학과</item>
+        <item>생약자원개발학과</item>
+        <item>식품영양학과</item>
+        <item>안경광학과</item>
+        <item>응급구조학과</item>
+        <item>작업치료학과</item>
+        <item>치위생학과</item>
+    </string-array>
+
+    <string-array name="humanities">
+        <item>공공행정전공</item>
+        <item>관광전공</item>
+        <item>영어전공</item>
+        <item>지역경제전공</item>
+        <item>레저스포트학과</item>
+        <item>멀티디자인학과</item>
+        <item>사회복지학과</item>
+        <item>생활조형디자인학과</item>
+        <item>연극영화학과</item>
+        <item>유아교육과</item>
+        <item>일본어학과</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>2021년</item>
+        <item>2022년</item>
+        <item>2023년</item>
+    </string-array>
+
+    <string-array name="term">
+        <item>1학기</item>
+        <item>여름학기</item>
+        <item>2학기</item>
+        <item>겨울학기</item>
+    </string-array>
+
+    <string-array name="universityArea">
+        <item>교양</item>
+        <item>전공</item>
+    </string-array>
+
+    <string-array name="universityRefinementMajor"> // 교양
+        <item>사회와세계</item>
+        <item>예술과건강</item>
+        <item>인간과문화</item>
+        <item>자연과기술</item>
+        <item>이러닝</item>
+
+    </string-array>
+
+    <string-array name="universityMajor">   //학과
+        <item>전공을 선택하세요</item>
+        <item>건설융합학부</item>
+        <item>기계시스템공학부</item>
+        <item>소방방재학부</item>
+        <item>신소재공학과</item>
+        <item>에너지자원화학공학과</item>
+        <item>전기제어계측공학부</item>
+        <item>AI소프트웨어학과</item>
+        <item>전자정보통신공학과</item>
+        <item>지구환경시스템공학과</item>
+    </string-array>
+    <string-array name="rank">
+        <item>전체에서</item>
+        <item>우리과에서</item>
+        <item>남자 선호도</item>
+        <item>여자 선호도</item>
+        <item>전공 인기도</item>
+        <item>교양 인기도</item>
+    </string-array>
+
+</resources>

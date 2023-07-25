@@ -13,7 +13,7 @@
 - dothome 웹호스팅
 
 ### 📲 주요 기능
-- 로그인 / 회원가입
-  ![Screenshot_1690270166](https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/b9b13a59-8771-48d4-a0e2-9a057037166d)
+- 로그인 / 회원가입  
+<img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/b9b13a59-8771-48d4-a0e2-9a057037166d width=30% height=120% /> <img src = https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/24c3117d-a9af-4be3-954a-1936ef7de63f width=30% height=120% />
 - Application 정보 및 학교 Map(팝업)
 - 공지사항, 강의목록, 시간표, 게시판, 회원정보, 메뉴Bar 번역

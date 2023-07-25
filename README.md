@@ -11,7 +11,7 @@
 <br><br>
 
 ### ⚙️ 개발환경
-- Android Studio ('Java 11')
+- Android Studio (`Java 11`)
 - SdkVersion 31 (Android 12)
 - dothome 웹호스팅
 <br><br>

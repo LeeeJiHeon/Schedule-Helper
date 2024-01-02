@@ -49,6 +49,7 @@ public class BoardAdapter extends BaseAdapter {
         TextView tv_date    = view.findViewById(R.id.tv_board_list_date);
         TextView tv_writer  = view.findViewById(R.id.tv_board_list_writer);
         TextView tv_title   = view.findViewById(R.id.tv_board_list_title);
+        TextView tv_content   = view.findViewById(R.id.tv_board_list_content);
 
         TextView tv_like_count = view.findViewById(R.id.tv_board_list_like_count);
 
@@ -56,6 +57,7 @@ public class BoardAdapter extends BaseAdapter {
         tv_date.setText(board.getDate());
         tv_writer.setText(board.getMayjor());
         tv_title.setText(board.getTitle());
+        tv_content.setText(board.getContent());
         tv_like_count.setText(board.getLike_count());
 
         return view;

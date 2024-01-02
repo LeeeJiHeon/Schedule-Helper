@@ -3,6 +3,8 @@ package com.example.e.Activity;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.TypedValue;
@@ -77,10 +79,28 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 notice.setVisibility(View.GONE);
-                courseButton.setBackgroundColor(getResources().getColor(R.color.grayDark));
-                scheduleButton.setBackgroundColor(getResources().getColor(R.color.gray));
-                boardButton.setBackgroundColor(getResources().getColor(R.color.gray));
-                statisticsButton.setBackgroundColor(getResources().getColor(R.color.gray));
+                courseButton.setTextColor(getResources().getColor(R.color.white));
+                scheduleButton.setTextColor(getResources().getColor(R.color.gray));
+                boardButton.setTextColor(getResources().getColor(R.color.gray));
+                statisticsButton.setTextColor(getResources().getColor(R.color.gray));
+
+                Drawable courseIcon = getResources().getDrawable(R.drawable.ic_course);
+                courseIcon.setColorFilter(getResources().getColor(R.color.white), PorterDuff.Mode.SRC_ATOP);
+                courseButton.setCompoundDrawablesWithIntrinsicBounds(null, courseIcon, null, null);
+
+                Drawable scheduleIcon = getResources().getDrawable(R.drawable.ic_schedule);
+                scheduleIcon.setColorFilter(getResources().getColor(R.color.gray), PorterDuff.Mode.SRC_ATOP);
+                scheduleButton.setCompoundDrawablesWithIntrinsicBounds(null, scheduleIcon, null, null);
+
+                Drawable boardIcon = getResources().getDrawable(R.drawable.ic_board);
+                boardIcon.setColorFilter(getResources().getColor(R.color.gray), PorterDuff.Mode.SRC_ATOP);
+                boardButton.setCompoundDrawablesWithIntrinsicBounds(null, boardIcon, null, null);
+
+                Drawable statisticsIcon = getResources().getDrawable(R.drawable.ic_statistics);
+                statisticsIcon.setColorFilter(getResources().getColor(R.color.gray), PorterDuff.Mode.SRC_ATOP);
+                statisticsButton.setCompoundDrawablesWithIntrinsicBounds(null, statisticsIcon, null, null);
+
+
                 FragmentManager fragmentManager = getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                 fragmentTransaction.replace(R.id.fragment, new CourseFragment());
@@ -92,10 +112,27 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 notice.setVisibility(View.GONE);
-                courseButton.setBackgroundColor(getResources().getColor(R.color.gray));
-                scheduleButton.setBackgroundColor(getResources().getColor(R.color.grayDark));
-                boardButton.setBackgroundColor(getResources().getColor(R.color.gray));
-                statisticsButton.setBackgroundColor(getResources().getColor(R.color.gray));
+                courseButton.setTextColor(getResources().getColor(R.color.gray));
+                scheduleButton.setTextColor(getResources().getColor(R.color.white));
+                boardButton.setTextColor(getResources().getColor(R.color.gray));
+                statisticsButton.setTextColor(getResources().getColor(R.color.gray));
+
+                Drawable courseIcon = getResources().getDrawable(R.drawable.ic_course);
+                courseIcon.setColorFilter(getResources().getColor(R.color.gray), PorterDuff.Mode.SRC_ATOP);
+                courseButton.setCompoundDrawablesWithIntrinsicBounds(null, courseIcon, null, null);
+
+                Drawable scheduleIcon = getResources().getDrawable(R.drawable.ic_schedule);
+                scheduleIcon.setColorFilter(getResources().getColor(R.color.white), PorterDuff.Mode.SRC_ATOP);
+                scheduleButton.setCompoundDrawablesWithIntrinsicBounds(null, scheduleIcon, null, null);
+
+                Drawable boardIcon = getResources().getDrawable(R.drawable.ic_board);
+                boardIcon.setColorFilter(getResources().getColor(R.color.gray), PorterDuff.Mode.SRC_ATOP);
+                boardButton.setCompoundDrawablesWithIntrinsicBounds(null, boardIcon, null, null);
+
+                Drawable statisticsIcon = getResources().getDrawable(R.drawable.ic_statistics);
+                statisticsIcon.setColorFilter(getResources().getColor(R.color.gray), PorterDuff.Mode.SRC_ATOP);
+                statisticsButton.setCompoundDrawablesWithIntrinsicBounds(null, statisticsIcon, null, null);
+
                 FragmentManager fragmentManager = getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                 fragmentTransaction.replace(R.id.fragment, new ScheduleFragment());
@@ -108,10 +145,27 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 notice.setVisibility(View.GONE);
-                courseButton.setBackgroundColor(getResources().getColor(R.color.gray));
-                scheduleButton.setBackgroundColor(getResources().getColor(R.color.gray));
-                boardButton.setBackgroundColor(getResources().getColor(R.color.grayDark));
-                statisticsButton.setBackgroundColor(getResources().getColor(R.color.gray));
+                courseButton.setTextColor(getResources().getColor(R.color.gray));
+                scheduleButton.setTextColor(getResources().getColor(R.color.gray));
+                boardButton.setTextColor(getResources().getColor(R.color.white));
+                statisticsButton.setTextColor(getResources().getColor(R.color.gray));
+
+                Drawable courseIcon = getResources().getDrawable(R.drawable.ic_course);
+                courseIcon.setColorFilter(getResources().getColor(R.color.gray), PorterDuff.Mode.SRC_ATOP);
+                courseButton.setCompoundDrawablesWithIntrinsicBounds(null, courseIcon, null, null);
+
+                Drawable scheduleIcon = getResources().getDrawable(R.drawable.ic_schedule);
+                scheduleIcon.setColorFilter(getResources().getColor(R.color.gray), PorterDuff.Mode.SRC_ATOP);
+                scheduleButton.setCompoundDrawablesWithIntrinsicBounds(null, scheduleIcon, null, null);
+
+                Drawable boardIcon = getResources().getDrawable(R.drawable.ic_board);
+                boardIcon.setColorFilter(getResources().getColor(R.color.white), PorterDuff.Mode.SRC_ATOP);
+                boardButton.setCompoundDrawablesWithIntrinsicBounds(null, boardIcon, null, null);
+
+                Drawable statisticsIcon = getResources().getDrawable(R.drawable.ic_statistics);
+                statisticsIcon.setColorFilter(getResources().getColor(R.color.gray), PorterDuff.Mode.SRC_ATOP);
+                statisticsButton.setCompoundDrawablesWithIntrinsicBounds(null, statisticsIcon, null, null);
+
                 FragmentManager fragmentManager = getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                 fragmentTransaction.replace(R.id.fragment, new BoardFragment());
@@ -123,10 +177,27 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 notice.setVisibility(View.GONE);
-                courseButton.setBackgroundColor(getResources().getColor(R.color.gray));
-                scheduleButton.setBackgroundColor(getResources().getColor(R.color.gray));
-                boardButton.setBackgroundColor(getResources().getColor(R.color.gray));
-                statisticsButton.setBackgroundColor(getResources().getColor(R.color.grayDark));
+                courseButton.setTextColor(getResources().getColor(R.color.gray));
+                scheduleButton.setTextColor(getResources().getColor(R.color.gray));
+                boardButton.setTextColor(getResources().getColor(R.color.gray));
+                statisticsButton.setTextColor(getResources().getColor(R.color.white));
+
+                Drawable courseIcon = getResources().getDrawable(R.drawable.ic_course);
+                courseIcon.setColorFilter(getResources().getColor(R.color.gray), PorterDuff.Mode.SRC_ATOP);
+                courseButton.setCompoundDrawablesWithIntrinsicBounds(null, courseIcon, null, null);
+
+                Drawable scheduleIcon = getResources().getDrawable(R.drawable.ic_schedule);
+                scheduleIcon.setColorFilter(getResources().getColor(R.color.gray), PorterDuff.Mode.SRC_ATOP);
+                scheduleButton.setCompoundDrawablesWithIntrinsicBounds(null, scheduleIcon, null, null);
+
+                Drawable boardIcon = getResources().getDrawable(R.drawable.ic_board);
+                boardIcon.setColorFilter(getResources().getColor(R.color.gray), PorterDuff.Mode.SRC_ATOP);
+                boardButton.setCompoundDrawablesWithIntrinsicBounds(null, boardIcon, null, null);
+
+                Drawable statisticsIcon = getResources().getDrawable(R.drawable.ic_statistics);
+                statisticsIcon.setColorFilter(getResources().getColor(R.color.white), PorterDuff.Mode.SRC_ATOP);
+                statisticsButton.setCompoundDrawablesWithIntrinsicBounds(null, statisticsIcon, null, null);
+
                 FragmentManager fragmentManager = getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                 fragmentTransaction.replace(R.id.fragment, new StatisticsFragment());

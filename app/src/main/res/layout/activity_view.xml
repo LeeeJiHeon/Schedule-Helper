@@ -218,7 +218,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="13dp"
-                android:divider="@color/grayDark"/>
+                android:divider="@color/grayDark"
+                android:dividerHeight="1dp"
+                />
         </LinearLayout>
     </ScrollView>
     <LinearLayout

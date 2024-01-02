@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/grayDark"
+    android:background="@color/black"
     tools:context=".Fragment.CourseFragment">
 
     <RadioGroup
@@ -21,6 +21,7 @@
             android:layout_weight="1"
             android:text="학부"
             android:textColor="@color/white"
+            android:buttonTint="@color/white"
             android:id="@+id/university" />
 
         <RadioButton
@@ -29,6 +30,7 @@
             android:layout_weight="1"
             android:text="대학원"
             android:textColor="@color/white"
+            android:buttonTint="@color/white"
             android:id="@+id/graduate" />
     </RadioGroup>
 
@@ -39,7 +41,8 @@
         android:layout_marginTop="10dp"
         android:layout_gravity="center"
         android:gravity="center"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:background="@color/menu_bar">
 
     <Spinner
         android:layout_width="125dp"
@@ -47,7 +50,9 @@
         android:layout_gravity="center"
         android:layout_marginLeft="10dp"
         android:spinnerMode="dropdown"
-        android:popupBackground="@color/grayDark"
+        android:popupBackground="@color/menu_bar"
+        android:backgroundTint="@color/white"
+        android:theme="@style/SpinnerTheme"
         android:id="@+id/yearSpinner"></Spinner>
 
     <Spinner
@@ -56,7 +61,9 @@
         android:layout_gravity="center"
         android:layout_marginLeft="10dp"
         android:spinnerMode="dropdown"
-        android:popupBackground="@color/grayDark"
+        android:popupBackground="@color/menu_bar"
+        android:backgroundTint="@color/white"
+        android:theme="@style/SpinnerTheme"
         android:id="@+id/termSpinner"></Spinner>
 
     <Spinner
@@ -65,35 +72,38 @@
         android:layout_gravity="center"
         android:layout_marginLeft="10dp"
         android:spinnerMode="dropdown"
-        android:popupBackground="@color/grayDark"
+        android:popupBackground="@color/menu_bar"
+        android:backgroundTint="@color/white"
+        android:theme="@style/SpinnerTheme"
         android:id="@+id/areaSpinner"></Spinner>
 
-</LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="10dp"
         android:layout_gravity="center"
         android:gravity="center"
+        android:background="@color/menu_bar"
         android:paddingRight="10dp">
 
         <Spinner
             android:layout_width="230dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_marginLeft="10dp"
             android:spinnerMode="dropdown"
-            android:popupBackground="@color/grayDark"
+            android:popupBackground="@color/menu_bar"
+            android:backgroundTint="@color/white"
+            android:theme="@style/SpinnerTheme"
             android:id="@+id/majorSpinner"></Spinner>
 
         <Button
-            android:layout_width="90dp"
-            android:layout_height="45dp"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
             android:layout_gravity="center"
             android:text="강의 검색"
-            android:textSize="15dp"
+            android:textSize="12dp"
             android:textStyle="bold"
             android:textColor="#ffffff"
             android:backgroundTint="@color/colorPrimary"
@@ -106,15 +116,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="1dp"
         android:background="#ffffff">
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/courseListView"
-        android:dividerHeight="3dp"
-        android:background="@color/gray"
-        android:divider="@color/gray"
+        android:dividerHeight="1dp"
+        android:background="@color/black"
+        android:divider="@color/grayDark"
         android:padding="5dp"></ListView>
 
     </LinearLayout>

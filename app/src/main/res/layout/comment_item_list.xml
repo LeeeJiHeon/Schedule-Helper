@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_marginBottom="10dp"
-    android:background="@color/grayDark">
+    android:background="@color/black">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
             android:textColor="@color/white"
             android:text="작성자"
             android:textStyle="bold"
-            android:textSize="@dimen/coment_text_size_small"/>
+            android:textSize="13dp"/>
 
         <LinearLayout
             android:visibility="gone"
@@ -33,7 +33,7 @@
                 android:id="@+id/btn_board_comment_item_delete"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/grayDark"
+                android:backgroundTint="@color/menu_bar"
                 android:textColor="@color/colorRed"
                 android:text="삭제"
                 android:textSize="13dp"/>
@@ -42,7 +42,7 @@
                 android:id="@+id/btn_board_comment_item_modify"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/grayDark"
+                android:backgroundTint="@color/menu_bar"
                 android:textColor="@color/colorPrimary"
                 android:text="수정"
                 android:textSize="13dp"/>
@@ -60,8 +60,8 @@
                 android:id="@+id/btn_board_comment_item_cancle"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/grayDark"
-                android:textColor="@color/black"
+                android:backgroundTint="@color/menu_bar"
+                android:textColor="@color/white"
                 android:text="취소"
                 android:textSize="13dp"/>
 
@@ -69,7 +69,7 @@
                 android:id="@+id/btn_board_comment_item_modi_submit"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/grayDark"
+                android:backgroundTint="@color/menu_bar"
                 android:textColor="@color/colorPrimary"
                 android:text="수정"
                 android:textSize="13dp"/>
@@ -87,7 +87,7 @@
             android:gravity="left"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="15dp"
+            android:textSize="12dp"
             android:textColor="@color/colorGrey"
             android:text="content"/>
 
@@ -107,7 +107,7 @@
         android:gravity="left"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
+        android:textColor="@color/gray"
         android:textSize="10dp"
         android:text="0000/00/00 00:00"/>
 

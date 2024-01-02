@@ -18,4 +18,16 @@
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
 
+    <style name="SpinnerDivideStyle">
+        <!--아이템을 나누는 선 색상-->
+        <item name="android:divider">@color/gray</item>
+        <!--선 높이-->
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="SpinnerTheme" parent="Theme.AppCompat">
+        <!--spinnerDivideStyle을 먼저 만들어 줘야한다.-->
+        <item name="android:dropDownListViewStyle">@style/SpinnerDivideStyle</item>
+    </style>
+
 </resources>

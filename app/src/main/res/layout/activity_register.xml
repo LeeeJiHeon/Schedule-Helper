@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity.RegisterActivity"
-    android:background="@color/grayDark">
+    android:background="@color/black">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,9 +21,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="회원 가입"
+                android:text="회원가입"
                 android:textColor="#ffffff"
-                android:textSize="30dp"
+                android:textSize="20dp"
                 android:textStyle="bold"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"/>
@@ -32,57 +32,58 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:background="@color/gray">
+            android:background="@color/black"
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:layout_gravity="center"
                 android:layout_marginTop="50dp"
-                android:layout_gravity="center">
+                android:orientation="horizontal">
 
                 <EditText
+                    android:id="@+id/idText"
                     android:layout_width="190dp"
                     android:layout_height="wrap_content"
-                    android:hint="아이디"
                     android:layout_gravity="center"
-                    android:padding="10dp"
-                    android:textColor="#ffffff"
-                    android:textColorHint="#ffffff"
-                    android:id="@+id/idText"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/round_text"
                     android:drawableStart="@drawable/ic_baseline_person_24"
                     android:drawableLeft="@drawable/ic_baseline_person_24"
-                    android:layout_marginRight="10dp"
-                    android:background="@color/grayDark"/>
+                    android:hint=" 아이디"
+                    android:padding="10dp"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff" />
 
                 <Button
+                    android:id="@+id/validateButton"
                     android:layout_width="80dp"
                     android:layout_height="40dp"
-                    android:textSize="15dp"
-                    android:textStyle="bold"
-                    android:background="@color/colorPrimaryDark"
-                    android:text="중복 체크"
                     android:layout_gravity="center"
-                    android:id="@+id/validateButton"
-                    android:textColor="#ffffff"/>
+                    android:background="@drawable/round_button"
+                    android:backgroundTint="@color/gray"
+                    android:text="중복체크"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
 
-           </LinearLayout>
+            </LinearLayout>
 
             <EditText
-                android:inputType="textPassword"
+                android:id="@+id/passwordText"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
-                android:hint="비밀번호"
                 android:layout_gravity="center"
-                android:padding="10dp"
-                android:textColor="#ffffff"
-                android:textColorHint="#ffffff"
-                android:id="@+id/passwordText"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_text"
                 android:drawableStart="@drawable/ic_baseline_lock_24"
                 android:drawableLeft="@drawable/ic_baseline_lock_24"
-                android:layout_marginTop="10dp"
-                android:background="@color/grayDark"/>
+                android:hint=" 비밀번호"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
 
             <EditText
                 android:id="@+id/emailText"
@@ -90,64 +91,67 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:background="@color/grayDark"
+                android:background="@drawable/round_text"
                 android:drawableStart="@drawable/ic_baseline_email_24"
                 android:drawableLeft="@drawable/ic_baseline_email_24"
-                android:hint="E-mail"
+                android:hint=" E-mail"
                 android:padding="10dp"
                 android:textColor="#ffffff"
                 android:textColorHint="#ffffff" />
 
             <RadioGroup
+                android:id="@+id/genderGroup"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/genderGroup"
                 android:layout_gravity="center_horizontal"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:background="@color/gray"
-                    android:textColor="@color/white"
-                    android:text="여성"
-                    android:id="@+id/genderWoman"
-                    android:layout_weight="1"
-                    android:checked="true"/>
-
-                <RadioButton
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:background="@color/gray"
-                    android:textColor="@color/white"
-                    android:text="남성"
                     android:id="@+id/genderMan"
-                    android:layout_weight="1"/>
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:buttonTint="@color/white"
+                    android:checked="true"
+                    android:text="남성"
+                    android:textColor="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/genderWoman"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:buttonTint="@color/white"
+                    android:text="여성"
+                    android:textColor="@color/white" />
 
             </RadioGroup>
 
             <Spinner
+                android:id="@+id/majorSpinner"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
+                android:backgroundTint="@color/white"
+                android:popupBackground="@color/black"
                 android:spinnerMode="dropdown"
-                android:popupBackground="@color/grayDark"
-                android:id="@+id/majorSpinner">
-            </Spinner>
+                android:theme="@style/SpinnerTheme"></Spinner>
 
             <Button
+                android:id="@+id/registerButton"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:textColor="#ffffff"
-                android:background="@color/black"
-                android:text="가입하기"
-                android:layout_marginTop="10dp"
                 android:layout_gravity="center"
-                android:id="@+id/registerButton" />
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="가입하기"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 

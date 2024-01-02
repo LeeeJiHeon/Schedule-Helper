@@ -4,7 +4,7 @@
     android:padding="16dp"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/grayDark">
+    android:background="@color/black">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -109,7 +109,7 @@
                     android:layout_weight="1"
                     android:textColor="@color/white"
                     android:textStyle="bold"
-                    android:textSize="@dimen/coment_text_size_large"
+                    android:textSize="17dp"
                     android:text="제목입니다."
                     />
             </LinearLayout>
@@ -132,6 +132,7 @@
                     android:textColor="@color/white"
                     android:textSize="@dimen/coment_text_size_small"
                     android:text="학과"
+                    android:textStyle="bold"
                     />
             </LinearLayout>
             <LinearLayout
@@ -150,7 +151,7 @@
                     android:id="@+id/dateview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/white"
+                    android:textColor="@color/gray"
                     android:text="2023.XX.XX"
                     android:textSize="@dimen/coment_text_size_small"
                     />
@@ -184,7 +185,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="0"
-                    android:textColor="@color/white"
+                    android:textColor="#FF0000"
+                    android:textStyle="bold"
                     android:textSize="@dimen/coment_text_size_small" />
 
             </LinearLayout>
@@ -205,6 +207,8 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:text="댓글"
+                android:textSize="15dp"
+                android:textStyle="bold"
                 />
 
             <ListView
@@ -221,10 +225,11 @@
         <EditText
             android:id="@+id/comment"
             android:layout_width="match_parent"
-            android:padding="8dp"
+            android:paddingBottom="15dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textColorHint="@color/colorGrey"
+            android:textColorHint="@color/gray"
+            android:backgroundTint="@color/gray"
             android:textColor="@color/white"
             android:textSize="15dp"
             android:hint="댓글 내용을 입력하세요"/>
@@ -234,7 +239,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:padding="8dp"
-            android:backgroundTint="@color/grayDark"
+            android:backgroundTint="@color/black"
             android:src="@drawable/send"/>
 
         <ImageButton
@@ -242,7 +247,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
-            android:backgroundTint="@color/grayDark"
+            android:backgroundTint="@color/black"
             android:src= "@drawable/like" />
 
     </LinearLayout>

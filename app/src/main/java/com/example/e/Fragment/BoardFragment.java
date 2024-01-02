@@ -14,6 +14,7 @@ import android.os.AsyncTask;
 import android.util.Log;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -104,8 +105,6 @@ public class BoardFragment extends Fragment {
             boardAdapter = new BoardAdapter(arrayList);
             listView.setAdapter(boardAdapter);
 
-
-
             listView.setOnItemClickListener((parent, view1, position, id) -> {
                 Board board = arrayList.get(position);
                 Intent intent = new Intent(requireContext(), ViewActivity.class);
@@ -115,7 +114,7 @@ public class BoardFragment extends Fragment {
                 //Toast.makeText(requireContext(), "게시글", Toast.LENGTH_SHORT).show();
             });
 
-            ImageButton btn_write = view.findViewById(R.id.btn_write);
+            Button btn_write = view.findViewById(R.id.btn_write);
             btn_write.setOnClickListener(v -> {
                 Intent intent = new Intent(requireContext(), WriteActivity.class);
                 startActivity(intent);

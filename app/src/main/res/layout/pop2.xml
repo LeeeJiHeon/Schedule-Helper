@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/menu_bar"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
@@ -16,9 +16,9 @@
         android:layout_marginTop="15dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
-        android:textColor="#ffffff"
+        android:textColor="@color/colorPrimary"
         android:padding="5dp"
-        android:textSize="17dp"
+        android:textSize="13dp"
         android:textStyle="bold"
         android:gravity="center"
         android:layout_gravity="center"/>
@@ -26,31 +26,31 @@
     <TextView
         android:drawableStart="@drawable/ic_baseline_edit_road_24"
         android:drawableLeft="@drawable/ic_baseline_edit_road_24"
-        android:text=" 주소 : 강원도 삼척시 중앙로 346 "
+        android:text=" 강원도 삼척시 중앙로 346 "
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="10dp"
         android:layout_marginRight="20dp"
         android:textColor="#ffffff"
-        android:background="#878686"
+        android:background="@drawable/round_text"
         android:padding="5dp"
-        android:textSize="15dp"
+        android:textSize="12dp"
         android:textStyle="bold"/>
 
     <TextView
         android:drawableStart="@drawable/ic_baseline_call_24"
         android:drawableLeft="@drawable/ic_baseline_call_24"
-        android:text=" 전화 : 033-570-6114"
+        android:text=" 033-570-6114"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="10dp"
         android:layout_marginRight="20dp"
         android:textColor="#ffffff"
-        android:background="#878686"
+        android:background="@drawable/round_text"
         android:padding="5dp"
-        android:textSize="15dp"
+        android:textSize="12dp"
         android:textStyle="bold"/>
 
     <LinearLayout
@@ -64,13 +64,13 @@
         <TextView
             android:drawableStart="@drawable/campus_map"
             android:drawableLeft="@drawable/campus_map"
-            android:text=" 캠퍼스맵"
+            android:text=" Campus Map"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#ffffff"
-            android:background="#878686"
+            android:background="@drawable/round_text"
             android:padding="5dp"
-            android:textSize="15dp"
+            android:textSize="12dp"
             android:textStyle="bold"/>
 
         <ImageView
@@ -107,14 +107,14 @@
                             android:layout_height="wrap_content"
                             android:text="101. 대학본부"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
                         <TextView
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:text="102. 전산정보원"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -139,14 +139,14 @@
                             android:layout_height="wrap_content"
                             android:text="103. 강의동"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
                         <TextView
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:text="104. 도서관"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -171,14 +171,14 @@
                             android:layout_height="wrap_content"
                             android:text="105. 조형관"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
                         <TextView
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:text="106. 동문안내실"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -203,14 +203,14 @@
                             android:layout_height="wrap_content"
                             android:text="107. 동문"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
                         <TextView
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:text="108. 야외음악당"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -235,14 +235,14 @@
                             android:layout_height="wrap_content"
                             android:text="109. 제2학생회관"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
                         <TextView
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:text="110. 체육관"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -267,14 +267,14 @@
                             android:layout_height="wrap_content"
                             android:text="111. 생활체육관"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
                         <TextView
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:text="112. 학생회관"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -299,14 +299,14 @@
                             android:layout_height="wrap_content"
                             android:text="113. 정문안내실"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
                         <TextView
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:text="114. 정문"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -331,14 +331,14 @@
                             android:layout_height="wrap_content"
                             android:text="115. 제3공학관"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
                         <TextView
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:text="116. 언장관"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -363,14 +363,14 @@
                             android:layout_height="wrap_content"
                             android:text="117. 창업보육센터"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
                         <TextView
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:text="118. 제4공학관"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -395,14 +395,14 @@
                             android:layout_height="wrap_content"
                             android:text="119. 인문사회과확관"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
                         <TextView
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:text="120. 제5공학관"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -427,14 +427,14 @@
                             android:layout_height="wrap_content"
                             android:text="121. 제1공학관"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
                         <TextView
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:text="122. 제2공학관"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -459,14 +459,14 @@
                             android:layout_height="wrap_content"
                             android:text="123. 공동실험실습관"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
                         <TextView
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:text="124. 해솔관"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -491,14 +491,14 @@
                             android:layout_height="wrap_content"
                             android:text="125. 두타관"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
                         <TextView
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:text="126. 그린에너지 연구관"
                             android:textColor="#ffffff"
-                            android:textSize="17dp"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
 
                     </LinearLayout>

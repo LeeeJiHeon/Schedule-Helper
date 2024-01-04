@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/menu_bar"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
@@ -16,9 +16,9 @@
         android:layout_marginTop="15dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
-        android:textColor="#ffffff"
+        android:textColor="@color/colorPrimary"
         android:padding="5dp"
-        android:textSize="17dp"
+        android:textSize="12dp"
         android:textStyle="bold"
         android:gravity="center"
         android:layout_gravity="center"/>
@@ -33,24 +33,9 @@
         android:layout_marginBottom="10dp"
         android:layout_marginRight="20dp"
         android:textColor="#ffffff"
-        android:background="#878686"
+        android:background="@drawable/round_text"
         android:padding="5dp"
-        android:textSize="15dp"
-        android:textStyle="bold"/>
-
-    <TextView
-        android:drawableStart="@drawable/security"
-        android:drawableLeft="@drawable/security"
-        android:text=" 개발팀 : Schedule Helper"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginRight="20dp"
-        android:textColor="#ffffff"
-        android:background="#878686"
-        android:padding="5dp"
-        android:textSize="15dp"
+        android:textSize="12dp"
         android:textStyle="bold"/>
 
     <TextView
@@ -63,9 +48,9 @@
         android:layout_marginBottom="10dp"
         android:layout_marginRight="20dp"
         android:textColor="#ffffff"
-        android:background="#878686"
+        android:background="@drawable/round_text"
         android:padding="5dp"
-        android:textSize="15dp"
+        android:textSize="12dp"
         android:textStyle="bold"/>
 
     <LinearLayout
@@ -83,9 +68,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#ffffff"
-            android:background="#878686"
+            android:background="@drawable/round_text"
             android:padding="5dp"
-            android:textSize="15dp"
+            android:textSize="12dp"
             android:textStyle="bold"/>
 
         <ScrollView
@@ -127,169 +112,23 @@
                                 android:text="이지헌"
                                 android:textStyle="bold"
                                 android:textColor="#ffffff"
-                                android:textSize="17dp"/>
+                                android:textSize="13dp"/>
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="강원대학교(삼척) 컴퓨터공학전공"
                                 android:textColor="#ffffff"
-                                android:textSize="14dp"/>
+                                android:textSize="12dp"/>
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="dlwlflgjs@naver.com"
                                 android:textColor="#ffffff"
-                                android:textSize="14dp"/>
+                                android:textSize="12dp"/>
 
                         </LinearLayout>
-
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="15dp"
-                    android:layout_marginBottom="15dp"
-                    android:orientation="horizontal">
-
-                    <com.example.e.Widget.CircleImageView
-                        android:src="@drawable/kimyoungmin"
-                        android:id="@+id/imageView3"
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        app:civ_border_color="@color/gray"
-                        app:civ_border_width="2dp"/>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="김용민"
-                            android:textStyle="bold"
-                            android:textColor="#ffffff"
-                            android:textSize="17dp"/>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="강원대학교(삼척) 컴퓨터공학전공"
-                            android:textColor="#ffffff"
-                            android:textSize="14dp"/>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="dydals7619@naver.com"
-                            android:textColor="#ffffff"
-                            android:textSize="14dp"/>
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="15dp"
-                    android:layout_marginBottom="15dp"
-                    android:orientation="horizontal">
-
-                    <com.example.e.Widget.CircleImageView
-                        android:src="@drawable/jeonmingon"
-                        android:id="@+id/imageView2"
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        app:civ_border_color="@color/gray"
-                        app:civ_border_width="2dp"/>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="전민곤"
-                            android:textStyle="bold"
-                            android:textColor="#ffffff"
-                            android:textSize="17dp"/>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="강원대학교(삼척) 미디어공학전공"
-                            android:textColor="#ffffff"
-                            android:textSize="14dp"/>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="asas2930@naver.com"
-                            android:textColor="#ffffff"
-                            android:textSize="14dp"/>
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="15dp"
-                    android:layout_marginBottom="15dp"
-                    android:orientation="horizontal">
-
-                    <com.example.e.Widget.CircleImageView
-                        android:src="@drawable/leesangmin"
-                        android:id="@+id/imageView4"
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        app:civ_border_color="@color/gray"
-                        app:civ_border_width="2dp"/>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="이상민"
-                            android:textStyle="bold"
-                            android:textColor="#ffffff"
-                            android:textSize="17dp"/>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="강원대학교(삼척) 미디어공학전공"
-                            android:textColor="#ffffff"
-                            android:textSize="14dp"/>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="leesm9806@naver.com"
-                            android:textColor="#ffffff"
-                            android:textSize="14dp"/>
-
-                    </LinearLayout>
 
                 </LinearLayout>
 

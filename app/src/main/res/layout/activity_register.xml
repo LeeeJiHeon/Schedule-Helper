@@ -36,7 +36,7 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="280dp"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp"
@@ -44,7 +44,7 @@
 
                 <EditText
                     android:id="@+id/idText"
-                    android:layout_width="190dp"
+                    android:layout_width="210dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginRight="10dp"
@@ -53,8 +53,9 @@
                     android:drawableLeft="@drawable/ic_baseline_person_24"
                     android:hint=" 아이디"
                     android:padding="10dp"
+                    android:textSize="15dp"
                     android:textColor="#ffffff"
-                    android:textColorHint="#ffffff" />
+                    android:textColorHint="@color/colorGrey" />
 
                 <Button
                     android:id="@+id/validateButton"
@@ -62,7 +63,7 @@
                     android:layout_height="40dp"
                     android:layout_gravity="center"
                     android:background="@drawable/round_button"
-                    android:backgroundTint="@color/gray"
+                    android:backgroundTint="#202026"
                     android:text="중복체크"
                     android:textColor="#ffffff"
                     android:textSize="15dp"
@@ -72,7 +73,7 @@
 
             <EditText
                 android:id="@+id/passwordText"
-                android:layout_width="280dp"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
@@ -82,12 +83,13 @@
                 android:hint=" 비밀번호"
                 android:inputType="textPassword"
                 android:padding="10dp"
+                android:textSize="15dp"
                 android:textColor="#ffffff"
-                android:textColorHint="#ffffff" />
+                android:textColorHint="@color/colorGrey" />
 
             <EditText
                 android:id="@+id/emailText"
-                android:layout_width="280dp"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
@@ -97,11 +99,12 @@
                 android:hint=" E-mail"
                 android:padding="10dp"
                 android:textColor="#ffffff"
-                android:textColorHint="#ffffff" />
+                android:textSize="15dp"
+                android:textColorHint="@color/colorGrey" />
 
             <RadioGroup
                 android:id="@+id/genderGroup"
-                android:layout_width="280dp"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
@@ -116,6 +119,7 @@
                     android:buttonTint="@color/white"
                     android:checked="true"
                     android:text="남성"
+                    android:textSize="15dp"
                     android:textColor="@color/white" />
 
                 <RadioButton
@@ -126,13 +130,14 @@
                     android:background="@color/black"
                     android:buttonTint="@color/white"
                     android:text="여성"
+                    android:textSize="15dp"
                     android:textColor="@color/white" />
 
             </RadioGroup>
 
             <Spinner
                 android:id="@+id/majorSpinner"
-                android:layout_width="280dp"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
@@ -143,14 +148,14 @@
 
             <Button
                 android:id="@+id/registerButton"
-                android:layout_width="280dp"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/round_button"
                 android:text="가입하기"
-                android:textColor="#ffffff"
-                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textSize="15dp"
                 android:textStyle="bold" />
 
         </LinearLayout>

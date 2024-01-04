@@ -44,7 +44,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
-                    android:text="강의 스케줄 도움e"
+                    android:text="Schedule Helper"
                     android:textColor="#ffffff"
                     android:textSize="25dp"
                     android:textStyle="bold" />
@@ -61,52 +61,54 @@
 
             <EditText
                 android:id="@+id/idText"
-                android:layout_width="280dp"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp"
                 android:background="@drawable/round_text"
                 android:drawableStart="@drawable/ic_baseline_person_24"
                 android:drawableLeft="@drawable/ic_baseline_person_24"
-                android:hint=" 아이디"
+                android:hint="  아이디"
                 android:minHeight="48dp"
                 android:padding="10dp"
-                android:textColor="#ffffff"
-                android:textColorHint="#ffffff" />
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textColorHint="@color/colorGrey" />
 
             <EditText
                 android:id="@+id/passwordText"
-                android:layout_width="280dp"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/round_text"
                 android:drawableStart="@drawable/ic_baseline_lock_24"
                 android:drawableLeft="@drawable/ic_baseline_lock_24"
-                android:hint=" 비밀번호"
+                android:hint="  비밀번호"
                 android:inputType="textPassword"
                 android:minHeight="48dp"
                 android:padding="10dp"
+                android:textSize="15dp"
                 android:textColor="#ffffff"
-                android:textColorHint="#ffffff" />
+                android:textColorHint="@color/colorGrey" />
 
             <Button
-                android:layout_width="280dp"
+                android:id="@+id/loginButton"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/round_button"
                 android:text="로그인"
-                android:layout_marginTop="10dp"
-                android:layout_gravity="center"
-                android:id="@+id/loginButton"/>
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="18dp"
+                android:textSize="15dp"
                 android:layout_marginTop="10dp"
                 android:text="회원가입"
                 android:textColor="@color/white"
@@ -126,11 +128,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:textSize="15dp"
-                    android:text=" Application 정보"
+                    android:textSize="12dp"
+                    android:text=" 애플리케이션 정보"
                     android:textStyle="bold"
                     android:id="@+id/information"
-                    android:textColor="@color/white"/>
+                    android:textColor="@color/colorPrimary"/>
 
             </LinearLayout>
 

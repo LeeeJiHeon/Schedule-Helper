@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragment.ScheduleFragment"
-    android:background="@color/grayDark">
+    android:background="@color/black">
 
 
     <TableLayout
@@ -15,82 +15,91 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/grayDark"
-            >
+            android:layout_height="match_parent">
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:text=""
                 android:layout_width="24dp"
                 android:layout_height="match_parent"
                 android:autoSizeTextType="uniform"
                 android:drawableStart="@drawable/baseline_calendar_month_24"
+                android:drawableLeft="@drawable/baseline_calendar_month_24"
                 android:layout_gravity="center"
                 />
 
-            <TextView
-                android:layout_width="24dp"
+            <com.example.e.Widget.AutoResizeTextView
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:autoSizeTextType="uniform"
                 android:gravity="center"
                 android:text="월"
-                android:textColor="#ffffff"
+                android:textColor="@color/colorGrey"
+                android:background="@drawable/cell_shape"
                 android:textStyle="bold"
-                android:textSize="17dp"
+                android:textSize="12dp"
                 android:textAlignment="center"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:autoSizeTextType="uniform"
                 android:gravity="center"
                 android:text="화"
-                android:textColor="#ffffff"
+                android:textColor="@color/colorGrey"
                 android:textStyle="bold"
-                android:textSize="17dp"
+                android:textSize="12dp"
                 android:textAlignment="center"
+                android:background="@drawable/cell_shape"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:autoSizeTextType="uniform"
                 android:gravity="center"
                 android:text="수"
-                android:textColor="#ffffff"
+                android:textColor="@color/colorGrey"
                 android:textStyle="bold"
-                android:textSize="17dp"
+                android:textSize="12dp"
                 android:textAlignment="center"
+                android:background="@drawable/cell_shape"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:autoSizeTextType="uniform"
                 android:gravity="center"
                 android:text="목"
-                android:textColor="#ffffff"
+                android:textColor="@color/colorGrey"
                 android:textStyle="bold"
-                android:textSize="17dp"
+                android:textSize="12dp"
                 android:textAlignment="center"
+                android:background="@drawable/cell_shape"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:autoSizeTextType="uniform"
                 android:gravity="center"
                 android:text="금"
-                android:textColor="#ffffff"
+                android:textColor="@color/colorGrey"
                 android:textStyle="bold"
-                android:textSize="17dp"
+                android:textSize="12dp"
                 android:textAlignment="center"
+                android:background="@drawable/cell_shape"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
         </TableRow>
@@ -99,90 +108,94 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/grayDark">
+            android:background="@color/black">
 
-            <TextView
-                android:autoSizeTextType="uniform"
-                android:text="9"
+            <com.example.e.Widget.AutoResizeTextView
                 android:layout_width="24dp"
                 android:layout_height="match_parent"
-                android:background="@color/grayDark"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
-                android:gravity="right"
-                android:textSize="15dp"
                 android:autoSizePresetSizes="@array/autosize_text_sizes"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/cell_shape"
+                android:gravity="right"
                 android:paddingRight="1dp"
-                />
+                android:text="9"
+                android:textColor="@color/colorGrey"
+                android:textSize="12dp"
+                android:textStyle="bold" />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="월"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/monday0"
                 android:padding="2dp"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="화"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/tuesday0"
                 android:padding="2dp"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="수"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/wednesday0"
                 android:padding="2dp"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="목"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/thursday0"
                 android:padding="2dp"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="금"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/friday0"
                 android:padding="2dp"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
         </TableRow>
@@ -190,86 +203,91 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/grayDark">
+            android:layout_weight="1">
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="10"
                 android:layout_width="24dp"
                 android:layout_height="match_parent"
-                android:background="@color/grayDark"
-                android:textColor="#ffffff"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/colorGrey"
                 android:textStyle="bold"
                 android:gravity="right"
-                android:textSize="15dp"
+                android:textSize="12dp"
                 android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:paddingRight="1dp"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="월"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
+                android:padding="2dp"
                 android:id="@+id/monday1"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="화"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/tuesday1"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="수"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/wednesday1"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="목"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/thursday1"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="금"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/friday1"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
         </TableRow>
@@ -277,86 +295,91 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/grayDark">
+            android:layout_weight="1">
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="11"
-                android:layout_width="wrap_content"
+                android:layout_width="24dp"
                 android:layout_height="match_parent"
-                android:background="@color/grayDark"
-                android:textColor="#ffffff"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/colorGrey"
                 android:textStyle="bold"
                 android:gravity="right"
-                android:textSize="15dp"
+                android:textSize="12dp"
                 android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:paddingRight="1dp"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="월"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/monday2"
+                android:padding="2dp"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="화"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/tuesday2"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="수"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/wednesday2"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="목"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/thursday2"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="금"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/friday2"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
         </TableRow>
@@ -364,86 +387,91 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/grayDark">
+            android:layout_weight="1">
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="12"
                 android:layout_width="24dp"
                 android:layout_height="match_parent"
-                android:background="@color/grayDark"
-                android:textColor="#ffffff"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/colorGrey"
                 android:textStyle="bold"
                 android:gravity="right"
-                android:textSize="15dp"
+                android:textSize="12dp"
                 android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:paddingRight="1dp"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="월"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/monday3"
+                android:padding="2dp"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="화"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/tuesday3"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="수"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/wednesday3"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="목"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/thursday3"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="금"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/friday3"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
         </TableRow>
@@ -451,86 +479,91 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/grayDark">
+            android:layout_weight="1">
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="1"
                 android:layout_width="24dp"
                 android:layout_height="match_parent"
-                android:background="@color/grayDark"
-                android:textColor="#ffffff"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/colorGrey"
                 android:textStyle="bold"
                 android:gravity="right"
+                android:textSize="12dp"
                 android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:paddingRight="1dp"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="월"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/monday4"
-
+                android:padding="2dp"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="화"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/tuesday4"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="수"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/wednesday4"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="목"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/thursday4"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="금"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/friday4"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
         </TableRow>
@@ -538,86 +571,90 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/grayDark">
+            android:layout_weight="1">
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="2"
                 android:layout_width="24dp"
                 android:layout_height="match_parent"
-                android:background="@color/grayDark"
-                android:textColor="#ffffff"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/colorGrey"
                 android:textStyle="bold"
                 android:gravity="right"
+                android:textSize="12dp"
                 android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:paddingRight="1dp"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="월"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/monday5"
-
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="화"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/tuesday5"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="수"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/wednesday5"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="목"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/thursday5"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="금"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/friday5"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
         </TableRow>
@@ -625,83 +662,88 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/grayDark">
+            android:layout_weight="1">
 
-            <TextView
-                android:autoSizeTextType="uniform"
+            <com.example.e.Widget.AutoResizeTextView
                 android:layout_width="24dp"
                 android:layout_height="match_parent"
-                android:background="@color/grayDark"
-                android:gravity="right"
-                android:text="3"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
                 android:autoSizePresetSizes="@array/autosize_text_sizes"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/cell_shape"
+                android:gravity="right"
                 android:paddingRight="1dp"
-                />
+                android:text="3"
+                android:textSize="12dp"
+                android:textColor="@color/colorGrey"
+                android:textStyle="bold" />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="월"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/monday6"
-
+                android:padding="2dp"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="화"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/tuesday6"
+
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="수"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/wednesday6"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="목"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/thursday6"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="금"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/friday6"
@@ -712,83 +754,87 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/grayDark">
+            android:layout_weight="1">
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="4"
                 android:layout_width="24dp"
                 android:layout_height="match_parent"
-                android:background="@color/grayDark"
-                android:textColor="@color/white"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/colorGrey"
                 android:textStyle="bold"
                 android:gravity="right"
-                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:paddingRight="1dp"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="월"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/monday7"
-
+                android:padding="2dp"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="화"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/tuesday7"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="수"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/wednesday7"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="목"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/thursday7"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="금"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/friday7"
@@ -799,83 +845,88 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/grayDark">
+            android:layout_weight="1">
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="5"
                 android:layout_width="24dp"
                 android:layout_height="match_parent"
-                android:background="@color/grayDark"
-                android:textColor="@color/white"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/colorGrey"
                 android:textStyle="bold"
                 android:gravity="right"
+                android:textSize="12dp"
                 android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:paddingRight="1dp"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="월"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/monday8"
-
+                android:padding="2dp"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="화"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/tuesday8"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="수"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/wednesday8"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="목"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/thursday8"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="금"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/friday8"
@@ -886,83 +937,88 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/grayDark">
+            android:layout_weight="1">
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="6"
-                android:layout_width="wrap_content"
+                android:layout_width="24dp"
                 android:layout_height="match_parent"
-                android:background="@color/grayDark"
-                android:textColor="#ffffff"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/colorGrey"
                 android:textStyle="bold"
                 android:gravity="right"
                 android:autoSizePresetSizes="@array/autosize_text_sizes"
+                android:textSize="12dp"
                 android:paddingRight="1dp"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:id="@+id/monday9"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:background="@drawable/cell_shape"
                 android:gravity="center"
                 android:text="월"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
-
+                android:padding="2dp"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
                 android:text="화"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:id="@+id/tuesday9"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="수"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/wednesday9"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="목"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/thursday9"
                 />
 
-            <TextView
+            <com.example.e.Widget.AutoResizeTextView
                 android:autoSizeTextType="uniform"
+                android:autoSizePresetSizes="@array/autosize_text_sizes"
                 android:text="금"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
-                android:textColor="@color/gray"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:background="@drawable/cell_shape"
                 android:id="@+id/friday9"

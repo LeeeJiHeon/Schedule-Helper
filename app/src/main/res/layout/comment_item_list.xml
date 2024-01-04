@@ -19,7 +19,7 @@
             android:textColor="@color/white"
             android:text="작성자"
             android:textStyle="bold"
-            android:textSize="13dp"/>
+            android:textSize="12dp"/>
 
         <LinearLayout
             android:visibility="gone"
@@ -98,7 +98,7 @@
             android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/coment_text_size_medium"
+            android:textSize="10dp"
             android:textColor="@color/white"
             android:text=""/>
     </LinearLayout>

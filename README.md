@@ -30,7 +30,7 @@
 - 메인화면 & 학교안내도(팝업) & 메인화면 번역
 <img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/4abef176-7690-4c1b-91af-acc6f9a4ab07 width=30% height=120% />
 <img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/702d1c04-098a-41a4-8d04-97f682815d76 width=30% height=120% />
-<img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/c0a78310-9df7-4e30-bb1f-bb32e7068e43 width=30% height=120% />
+<img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/a4d84626-c370-44a1-b77a-79fa1fa8f5b9 width=30% height=120% />
 <br><br>
   
 - 강의목록 조회 및 시간표확인
@@ -40,27 +40,11 @@
 
 - 게시판
 <img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/8b79bb8b-45d9-4681-8d5b-230eed5ae7da width=30% height=120% />
+<img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/35c0d633-86c2-4856-ac19-5d67bf9d78d1 width=30% height=120% />
 <img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/c028056d-4762-4458-b0f1-f25484b11d3c width=30% height=120% />
 <img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/abab4910-053b-4297-b80a-4f4223e4c3d2 width=30% height=120% />
-<img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/c028056d-4762-4458-b0f1-f25484b11d3c width=30% height=120% />
+<img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/45743e23-b1b8-49da-985f-622f1efe57e7 width=30% height=120% />
+<br><br>
 
 - 내 정보 & 인기차트 보기
 <img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/1daf1c91-5f45-4d03-93ee-92fb7f31dd7f width=30% height=120% />
-
-
-![댓글보기](https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/45743e23-b1b8-49da-985f-622f1efe57e7)
-
-
-
-
-
-- 학교 안내도 (팝업) <br><br>
-<img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/673eb8d3-1676-4bf7-87bb-8142bfd2324f width=30% height=120% /> <br><br>
-
-- 공지사항, 강의목록, 시간표, 게시판, 회원정보, 메뉴Bar 번역 <br><br>
-<img src=https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/1d1ba21f-2763-4838-a102-8f3d92c092a7 width=30% height=120% />
-<img src=https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/f8edbc70-02d2-45cf-9427-2a5b38c08a86 width=30% height=120% />
-<img src=https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/45101f36-2008-4445-a9b5-af97df7866d8 width=30% height=120% />
-<img src=https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/1acd58a9-fa16-4034-99ea-32beef7c19f0 width=30% height=120% />
-<img src=https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/239ef919-5c33-402f-bb94-7b8844f060c8 width=30% height=120% />
-<img src=https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/7b324daa-e15b-4d73-8001-35976b6774c8 width=30% height=120% />

@@ -16,8 +16,9 @@
 - dothome 웹호스팅
 <br><br>
 
-
 ### 📰 ERD
+![ERD](https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/9847336e-5906-47fe-a9f9-7507afdb498b)
+<br><br>
 ### 📲 주요 기능
 - 로그인 / 회원가입 <br><br>
 <img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/205a69a8-6fdf-4f81-9474-ae0ddec83a13 width=30% height=120% />

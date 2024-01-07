@@ -21,7 +21,7 @@
 <br><br>
 
 ### 📲 주요 기능
-- **로그인 및 회원가입 & 애플리케이션 정보(팝업) **
+- **로그인 및 회원가입 & 애플리케이션 정보(팝업)**
 <img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/205a69a8-6fdf-4f81-9474-ae0ddec83a13 width=30% height=120% />
 <img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/24563777-a251-42e2-95e5-3017efaff070 width=30% height=120% />
 <img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/c2ee8668-055f-400f-8ec3-cb2bff1e784c width=30% height=120% />

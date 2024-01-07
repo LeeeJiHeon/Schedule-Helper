@@ -10,17 +10,17 @@
 - 23.04.01 - 23.06.12
 <br><br>
 
-### ⚙️ 개발환경
+## ⚙️ 개발환경
 - Android Studio (`Java 11`)
 - SdkVersion 31 (Android 12)
 - dothome 웹호스팅
 <br><br>
 
-### 📰 ERD
+## 📰 ERD
 ![ERD](https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/9847336e-5906-47fe-a9f9-7507afdb498b)
 <br><br>
 
-### 📲 주요 기능
+## 📲 주요 기능
 - **로그인 및 회원가입 & 애플리케이션 정보(팝업)**
 <img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/205a69a8-6fdf-4f81-9474-ae0ddec83a13 width=30% height=120% />
 <img src= https://github.com/LeeeJiHeon/Schedule-Helper/assets/79850216/24563777-a251-42e2-95e5-3017efaff070 width=30% height=120% />
